@@ -1,0 +1,54 @@
+header p {
+    font: 25px Nunito-L;
+    font-weight: 800;
+}
+
+main {
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+main h1 {
+    font: 26px Manrope;
+    color: #333333;
+    text-align: center;
+}
+
+main h2 {
+    font: 22px Manrope;
+    color: #333333;
+    text-align: center;
+}
+
+main p {
+    font: 18px Nunito-L;
+    color: #313331;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-indent: 35px;
+}
+
+img {
+    border-radius: 25px;
+    max-width: 400px;
+}
+
+.left {
+    float: left;
+    margin-right: 15px;
+    margin-left: 10%;
+}
+
+.container {
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+
+    main p{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}

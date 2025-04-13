@@ -1,0 +1,43 @@
+button {
+    background-color: #7ab02a;
+    border-radius: 15px;
+    border-style: none;
+    color: #333333;
+    width: 120px;
+    height: 60px;
+}
+
+button:hover {
+    background-color: #97d13f;
+}
+
+main {
+    margin-bottom: 150px;
+}
+
+main p {
+    color: #333333;
+    font: 16px Nunito-L;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1 {
+    font: 20px Manrope;
+    color: #333333;
+    text-align: center;
+}
+
+h2 {
+    font: 18px Manrope;
+    color: #333333;
+    text-align: center;
+}
+
+.aa {
+    margin-top: 10px;
+}
+
+main a {
+    color: #333333;
+}

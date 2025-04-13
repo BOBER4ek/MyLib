@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Nunito-L;
+    src: url('../font/Nunito-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url('../font/Manrope-Regular.ttf') format('truetype');
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+    width: 100%;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #7ab02a;
+    color: #333333;
+    font: 24px Nunito-L;
+    font-weight: 600;
+}
+
+body {
+    background-color: #fcfcee;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #fff8dc;
+    font: 12px Nunito-L;
+    color: #646964;
+    font-weight: 300;
+    line-height: 75%;
+    text-align: center;
+}
+
+::selection {
+    background: #f0eaaa;
+}
+
+footer a:link {
+    color: #333333;
+}
+  
+footer a:visited {
+    color: #646964;
+}
+
+.aa button {
+    background-color: #7ab02a;
+    border-radius: 15px;
+    border-style: none;
+    color: #333333;
+    width: 120px;
+    height: 40px;
+}
+
+.aa button:hover {
+    background-color: #97d13f;
+}
+
+.aa form{
+    display: inline-block;
+}
+
+.aa {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header {
+        font: 20px Nunito-L;
+    }
+
+    footer {
+        font: 8px Nunito-L;
+    }
+}
